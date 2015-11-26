@@ -2,7 +2,7 @@ Package.describe({
   git: 'https://github.com/hansoft/fullcalendar-scheduler',
   name: 'hansoft:fullcalendar-scheduler',
   summary: 'A premium add-on to FullCalendar for displaying events and resources.',
-  version: '1.1.0-beta2',
+  version: '1.1.0-beta2_1',
 });
 
 Package.onUse(function(api) {
