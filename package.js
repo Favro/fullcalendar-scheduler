@@ -12,15 +12,15 @@ Package.onUse(function(api) {
 		'jquery',
 		'momentjs:moment@2.4.8',
 		'rzymek:fullcalendar@2.4.0_1',
-  ]);
+  ], 'client');
 
 	api.imply([
 		'rzymek:fullcalendar',
-	]);
+	], 'client');
 
 	api.addFiles([
 		'dist/scheduler.js',
 		'dist/scheduler.css',
-	]);
+	], 'client');
 
 });
